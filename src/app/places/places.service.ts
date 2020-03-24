@@ -11,20 +11,20 @@ private _places: Place[] = [
     'Abuja Hotel', 
     'A nice place to chill', 
     'https://guardian.ng/wp-content/uploads/2017/02/NICON-Luxury-Abuja.jpg', 
-    55
+    55.10
     ),
     new Place(
       '2', 
       'Lagos Hotel', 
       'very nice place', 
-      'ubuowboeuw', 
+      'https://i2.wp.com/www.vanguardngr.com/wp-content/uploads/2020/03/Eko-Hotel.jpeg?resize=768%2C980&ssl=1', 
       123.45
       ),
       new Place(
         '3', 
         'Port-Harcourt Hotel', 
         'very very nice', 
-        'ubuowboeuw', 
+        'https://149366101.v2.pressablecdn.com/wp-content/uploads/2020/03/Eko-Hotel-e1584899542908.jpg', 
         200.45
         )
 ];

@@ -5,7 +5,12 @@
 </ion-header>
 
 <ion-content padding>
-
-  <ion-button color = "primary" (click) = "logIn()">LogIn</ion-button>
-
+  <ion-item>
+    <ion-label position = "floating">E-mail </ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+<!-- <div class = "ion-text-center">
+  <ion-spinner *ngIf = "isLoading"></ion-spinner>
+</div> -->
+  <ion-button color = "primary" (click) = "logIn()" >LogIn</ion-button>
 </ion-content>

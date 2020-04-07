@@ -3,6 +3,7 @@ import { AuthService } from './auth.service';
 import { Component, OnInit } from '@angular/core';
 import {LoadingController} from '@ionic/angular';
 
+
 @Component({
   selector: 'app-auth',
   templateUrl: './auth.page.html',
@@ -10,7 +11,11 @@ import {LoadingController} from '@ionic/angular';
 })
 export class AuthPage implements OnInit {
   isLoading = false;
-  constructor(private authService: AuthService, private router: Router, private loadingCtrl: LoadingController) { }
+  constructor(
+    private authService: AuthService, 
+    private router: Router, 
+    private loadingCtrl: LoadingController,
+    ) { }
 
   ngOnInit() {
   }
